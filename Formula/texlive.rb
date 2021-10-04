@@ -22,6 +22,8 @@ class Texlive < Formula
     sha256 mojave:        "7c27168b1a8592bc78b82ec0d92a87595bce2a77f7b96d9eb69af49af5c4d9e6"
     sha256 x86_64_linux:  "9100a01d16c8e182e31c78d531ca806419e70beab6c08e10d80e778231b12743"
   end
+  
+  conflicts_with cask: "mactex"
 
   depends_on "cairo"
   depends_on "clisp"
